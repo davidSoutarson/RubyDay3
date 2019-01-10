@@ -1,29 +1,46 @@
-def define_pw
-  puts "Choisi un mot de passe et conserve le précieusement."
-  @user_password = gets.chomp
+def utilisateur
+	puts "entre vortre prenom"
+	prenom = gets.chomp
+	return prenom
+end 
+
+
+def signup
+	puts "entrer votre mots de passe :"
+	motsdepasse = gets.chomp 
+	return motsdepasse
+end 
+
+def login
+ prenom=utilisateur
+mdp= signup
+puts signup 
+	puts "verrifier votre mots de passe :" 
+	verrifier = gets.chomp
+        while   verrifier!= mdp
+
+	puts "verrifier votre mots de passe :"
+	verrifier = gets.chomp
+
+	end
+
+	puts "bonjour #{prenom}"
+
+end
+  
+
+def welcome_screem 
+     puts "================================ "
+     puts "=                              = "
+     puts "=                              = "  
+     puts "=                              = "
+     puts "=         Bienvenue            = "
+     puts "=            NASA              = "
+     puts "=                              = "
+     puts "=                              = "
+     puts "=                              = "
+     puts "================================ "
 end
 
-def pw_verif
-  puts "Retape ton mot de passe pour confirmer s'il te plait."
-  verif = gets.chomp
-
-  if verif == @user_password
-    puts "Merci, ton mot de passe et bien enregistré."
-  else
-    puts "Tu as rentré deux mots de passe différents, recommence."
-  end
-end
-
-def connect(pw)
-  if pw == @user_password
-    puts "You are online"
-  end
-end
-
-
-def perform
-  define_pw
-  pw_verif
-end
-
-perform
+login
+welcome_screem
