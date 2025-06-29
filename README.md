@@ -14,4 +14,34 @@ Le répertoire `lib/` contient les fichiers suivants :
 - `03 _stairway.rb` : Simule une montée d'escalier avec des conditions.
 - `README.md` : Ce fichier !
 
-## 🚀 Exécution
+## 🎯 Objectifs pédagogiques
+### Ce projet permet de pratiquer :
+
+- Les boucles (for, while)
+
+- Les conditions (if, case)
+
+- L'affichage dans le terminal
+
+- La gestion d'entrée utilisateur (gets.chomp)
+
+- La logique conditionnelle
+
+## 📦 Pré-requis
+Ruby 2.5 ou plus
+
+Aucun gem externe requis
+
+## 🙌 Contribuer
+Tu souhaites améliorer un exercice ou en ajouter un ? Voici comment :
+
+- Fork ce dépôt
+
+- Crée une branche (git checkout -b ajout-exo)
+
+- Fais tes changements
+
+- Ouvre une Pull Request ✨
+
+## 📝 Licence
+Ce projet est libre sous licence MIT.
