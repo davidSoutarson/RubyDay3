@@ -38,7 +38,7 @@ Exécute un fichier dans le terminal comme ceci :
 
 ```bash
 ruby lib/01_pyramids.rb
-
+```
 - Ouvre une Pull Request ✨
 
 ## 🙌 Contribuer
